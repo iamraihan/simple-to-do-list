@@ -13,6 +13,38 @@
 
 <body>
 
+    <h1 class="text-center my-5">To Do List</h1>
+    <div class="container">
+
+        <div class="input-group">
+
+            <input id="task-input" class="form-control" aria-label="With textarea"></input>
+            <button id="add-task-btn" class="input-group-text btn btn-success">Add Task</button>
+        </div>
+
+        <table class="table text-center">
+            <thead>
+                <tr>
+                    <th scope="col">SL</th>
+                    <th scope="col">Descreption</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody id="table-container">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <p style="display: none;" id="empty" class="text-danger">Please Input a task</p>
+    </div>
+
+
+
+    <script src="app.js"></script>
 </body>
 
 </html>
